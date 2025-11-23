@@ -1,0 +1,48 @@
+.
+├── backend
+│   ├── migrations
+│   │   ├── 001_initial_schema.sql
+│   │   └── 002_seed_avatars.sql
+│   ├── package.json
+│   ├── scripts
+│   │   ├── seed-image-metadata.ts
+│   │   └── test-endpoints.sh
+│   ├── src
+│   │   ├── chat-session.ts
+│   │   ├── index.ts
+│   │   ├── lib
+│   │   ├── middleware
+│   │   └── routes
+│   ├── tsconfig.json
+│   └── wrangler.toml
+├── frontend
+│   ├── index.html
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── public
+│   ├── src
+│   │   ├── App.tsx
+│   │   ├── components
+│   │   ├── lib
+│   │   ├── main.tsx
+│   │   ├── pages
+│   │   ├── styles
+│   │   └── types.ts
+│   ├── tailwind.config.js
+│   ├── tsconfig.json
+│   ├── tsconfig.node.json
+│   └── vite.config.ts
+├── project_structure.txt
+├── README.md
+├── SETUP_GUIDE.md
+├── Sophie
+│   ├── Sophie_1.png
+│   ├── xknucklesx_portrait_photo_of_a_26_year_old_woman_shoulder_len_18bf27b9-8f03-4641-9bb9-515ae566545b_1.png
+│   ├── xknucklesx_portrait_photo_of_a_26_year_old_woman_shoulder_len_18bf27b9-8f03-4641-9bb9-515ae566545b_2.png
+│   ├── xknucklesx_portrait_photo_of_a_26_year_old_woman_shoulder_len_55978130-b3d3-4a2a-b141-1eaba19b9aed_1.png
+│   ├── xknucklesx_portrait_photo_of_a_26_year_old_woman_shoulder_len_55978130-b3d3-4a2a-b141-1eaba19b9aed_2.png
+│   ├── xknucklesx_portrait_photo_of_a_26_year_old_woman_shoulder_len_c98a03d3-2286-497e-a464-c0185f6461fb_0.png
+│   └── xknucklesx_portrait_photo_of_a_26_year_old_woman_shoulder_len_c98a03d3-2286-497e-a464-c0185f6461fb_2.png
+└── test
+
+17 directories, 29 files

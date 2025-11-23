@@ -1,0 +1,37 @@
+name = "cnctd-ai"
+main = "src/index.ts"
+compatibility_date = "2024-11-01"
+node_compat = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cnctd-db"
+database_id = "PLACEHOLDER_WILL_BE_GENERATED"
+
+[[kv_namespaces]]
+binding = "SESSIONS"
+id = "PLACEHOLDER_WILL_BE_GENERATED"
+
+[[r2_buckets]]
+binding = "AVATARS"
+bucket_name = "cnctd-avatars"
+
+[ai]
+binding = "AI"
+
+[durable_objects]
+bindings = [
+  { name = "CHAT_SESSION", class_name = "ChatSession" }
+]
+
+[[migrations]]
+tag = "v1"
+new_classes = ["ChatSession"]
+
+[vars]
+JWT_SECRET = "CHANGE_IN_PRODUCTION"
+FRONTEND_URL = "http://localhost:5173"
+
+# Run these commands to set secrets:
+# npx wrangler secret put STRIPE_SECRET_KEY
+# npx wrangler secret put STRIPE_WEBHOOK_SECRET
