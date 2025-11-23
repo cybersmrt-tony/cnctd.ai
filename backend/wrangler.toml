@@ -6,11 +6,11 @@ node_compat = true
 [[d1_databases]]
 binding = "DB"
 database_name = "cnctd-db"
-database_id = "PLACEHOLDER_WILL_BE_GENERATED"
+database_id = "dd8413b0-72a1-466c-9b83-a77bd5114619"
 
 [[kv_namespaces]]
 binding = "SESSIONS"
-id = "PLACEHOLDER_WILL_BE_GENERATED"
+id = "c6196f7ffa8b4502b33fcf5195e62a01"
 
 [[r2_buckets]]
 binding = "AVATARS"
